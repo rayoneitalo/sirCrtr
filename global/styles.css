@@ -19,7 +19,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0765bb;
+  color: #2E8AE6;
   transition: .1s;
 }
 
@@ -37,6 +37,12 @@ a:hover {
   color: #fffc;
 }
 
+.link-menu:active {
+  transform: scale(.95);
+}
+
+
+
 .container {
   position: absolute;
   height: 100%;
@@ -49,7 +55,7 @@ a:hover {
 
 .header {
   width: 100%;
-  background: #0980ec;
+  background: #2E8AE6;
   padding: 0 30px;
   height: 80px;
   display: flex;
@@ -76,7 +82,7 @@ a:hover {
 
 .btn-primary {
   color: #fff;
-  background: #0980ec;
+  background: #2E8AE6;
   padding: 12px;
   border-radius: 4px;
   border: none;
@@ -88,7 +94,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background: #0765bb;
+  background: #2364AA;
 }
 
 .btn-primary:active {

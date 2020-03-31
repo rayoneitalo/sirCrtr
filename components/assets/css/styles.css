@@ -9,8 +9,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    border-left: .5px solid #cecece;
-    border-bottom: .5px solid #cecece ;
+    box-shadow: inset 0px 1px 1px 0px;
 }
 
 .form-group label {
@@ -70,3 +69,54 @@
   margin-right: 15px;
 }
 
+.section {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 432px;
+}
+
+.aside {
+  display: grid;
+  box-shadow: inset 0px 1px 1px 0px;
+  margin-top: 5px;
+  border-radius: 4px;
+  width: 20%;
+  height: 90%;
+  background: #2E8AE6;
+}
+
+.menu {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-content: space-around;
+}
+
+.main {
+  display: grid;
+  width: 70%;
+}
+
+.main h2 {
+  margin-top: 20px;
+}
+
+.btn-menu {
+    font-size: .98em;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: .1s;
+    background: transparent;
+}
+
+.btn-menu:hover {
+  background: #2364AA;
+  border-radius: 4px;
+}
+
+.btn-menu:active {
+  transform: scale(.95);
+}
