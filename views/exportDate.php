@@ -13,3 +13,9 @@
   include_once('../components/footer.php');
 
 ?>
+
+<script>
+function init() {
+    alert('Os dados serão exportados');
+}
+</script>

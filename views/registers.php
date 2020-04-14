@@ -7,9 +7,34 @@
 <div class="section">
     <div class="aside">
         <ul class="menu">
-            <button class="btn-menu">Menu Clínicas</button>
-            <button class="btn-menu">Menu Usuários</button>
-            <button class="btn-menu">Menu Questões</button>
+            <div class="dropdown">
+                <button class="btn-menu">Clínicas</button>
+                <div class="dropdown-content">
+                    <button id="1">Cadastro</button>
+                    <button id="2">Listar</button>
+                    <button id="3">Buscar</button>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <button class="btn-menu">Usuários</button>
+                <div class="dropdown-content">
+                    <button id="1">Cadastro</button>
+                    <button id="2">Listar</button>
+                    <button id="3">Buscar</button>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn-menu">Questões</button>
+                <div class="dropdown-content">
+                    <button id="1">Cadastro</button>
+                    <button id="2">Listar</button>
+                    <button id="3">Buscar</button>
+                </div>
+
+            </div>
         </ul>
 
     </div>
@@ -24,3 +49,5 @@
   include_once('../components/footer.php');
 
 ?>
+
+<script src="../components/assets/js/dropdown.js"></script>

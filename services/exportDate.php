@@ -29,17 +29,11 @@
   $writer = new XLSXWriter();
   $writer -> writeSheetHeader($sheet, $header);
   $writer -> writeSheetRow($sheet, $data);
-  $writer->writeToFile('../temp/dados.xlsx');
+  $writer -> writeToFile('../temp/dados.xlsx');
+
+  header("Location: http://localhost/sirCrtr/views/exportDateExit.php");
 
   ?>
-
-<br>
-<br>
-<a href="../controllers/login.php">Voltar</a>
-<br>
-<br>
-
-<?=('Dados exportados')?>
 
 
 
